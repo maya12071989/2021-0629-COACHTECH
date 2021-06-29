@@ -1,6 +1,8 @@
 body {
+  max-width: 1500px;
   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro",
     "Yu Gothic Medium", "游ゴシック Medium", sans-serif;
+    box-sizing: border-box;
 }
 
 img {
@@ -57,6 +59,7 @@ li {
   background: #fff;
   position: fixed;
   z-index: 9999;
+  
 }
 
 .header {
